@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+    position: relative; 
+    min-height: 100%;
+}
+body { 
+    width: 100%;
+    
+    background-color: rgb(10, 6, 6);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif,Helvetica, sans-serif;
+    padding:0;
+    min-height: 100%;
+    margin: 0 auto 150px;
+    
+}
+ navbar{
+     height: 25px;
+     width: auto;
+     background-color: #f36f35;
+     
+ }
+ .Content  {
+     margin: 10%;
+     margin-top: 5%;
+     height: 100%;
+     display: block;
+     justify-content: center;
+     
+     
+ }
+ img.imagen{
+     width: 140px;
+     height: auto;
+ }
+ img {
+width: 180px;
+height: auto;
+ }
+ 
+ .ImgStatic {
+   text-align: center;
+    height: auto; 
+    justify-content: center;
+    margin: auto;
+ }
+ .ImgContenedorAnimated{
+     text-align: center;
+     
+     height: 200px;
+     
+ }
+
+
+ .ListAndPrices{
+     display: flex;
+ }
+ .ListContent{
+     width: 200px;
+ }
+ .ListContentFood{
+    width: 200px;
+    height: auto;
+}
+ .ListPrices{
+     width: auto;
+     margin-left: auto;
+     margin-right: 0px;
+     text-align: right;
+
+ }
+ .ListContentCitric{
+    width: 140px;
+}
+.ListPricesCitric{
+    margin-left: auto;
+    margin-right: 10px;
+}
+ li.price{
+     list-style-type: none;
+     
+ }
+
+ h2{
+     display: block;
+     justify-content: center;
+    text-align: center;
+ }
+ hr{
+    display: block;
+    border-width: 1px;
+    width: 91%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ .vr{
+    margin-left: 25px;
+    border-left: 2px solid #000;
+ }
+ .container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    
+    
+}
+.container > .crop {
+    position:absolute;
+    left: -160%;
+    right: -160%;
+    top: -90%;
+    bottom: -253%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+ .Pitillo{
+     width: 180px;
+     height: 120px;
+     margin-left:  auto;
+     margin-right: auto;
+     margin-bottom: -23px;
+
+ }
+
+ .Form{
+    
+    text-align: center;
+    
+ }
+ h1{
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.57);
+ }
+ a{
+     text-shadow: 2px 2px 5px #000;
+    
+        margin-left: 5px;
+        margin-right: 5px;
+    
+
+ }
+ .BackwardButton{
+     position: sticky;
+     top: 5%;
+     right: 5%;
+     height: 100px;
+     width: 100px;
+     left: 95%;
+ }
+ 
+.Choose{
+    
+    background-color: whitesmoke;
+    width: 200px;
+   
+    border-radius: 5%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+
+    box-shadow: 0px 1px 6px 2px #fff;
+   
+    text-align: center;
+    padding: 15px;
+    color: rgb(31, 29, 29);
+   
+    
+
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+}
+a.SelectFood{
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    left: 0%;
+    margin: 0;
+}
+.Food h3{
+    padding-top: 0%;
+}
+.Drink h3{
+    padding-top: 0%;
+}
+
+
+.FooterText{
+   justify-content: center;
+   text-align: center;
+   text-shadow: 2px 2px 5px #000;
+
+    
+}
+footer{
+    background-color: #353438;
+    padding: 10px 0;
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%;
+}
+
+
+.ChooseSeparator{
+    color: rgb(37, 36, 36);
+   border: 1px solid rgb(31, 29, 29);
+   margin-bottom: 5px;
+}
+
+.Food{
+    height: 40px;
+    background-color: #50ac6a;
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #999;
+    -webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+
+  
+   
+}
+.Food h3{
+    background-color: rgb(245, 237, 237);
+    transition: width 4s
+}
+h3{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position:relative;
+}
+.Drink{
+    height: 40px;
+    background-color: #f36f35;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #999;
+    -webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+}
+
+
+.imagen {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    
+  }
+  #ContentBar{
+    display: block;
+    margin-top: 100px;
+    background-color: #575757;
+    height: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    align-items: center;
+    border-radius: 14px;
+    
+}
+  #LoadingBar{
+        height: 8px;
+        width: 98%;
+        background-color: #50ac6a;
+        border-radius: 12px;
+        margin-top: 5px;
+        margin-bottom:5px; 
+        animation-duration: 3s;
+        animation-name: Loading;
+        position: relative;
+        margin-left: 1%;
+        top: 4px;
+        
+        box-shadow: 2px 2px 5px rgb(30, 29, 29);
+  }
+
+ 
+  @keyframes slidein {
+    0% { width: 140px; height: auto;}
+  
+    50% { width: 200px; height: auto;}
+  }
+  @keyframes Loading {
+      10%{
+          width: 10%;
+      }
+      100%{
+        width: 98%;
+      }
+      
+  }
+  @keyframes FoodAnimation {
+      0%{
+          width:200px ;
+      }
+      100%{
+          width: 100px;
+      }
+      
+  }
+ .Food h3:hover{
+
+    width: 100px;
+     
+     animation: FoodAnimation 2s;
+     animation-fill-mode:forwards;
+
+ }
+  

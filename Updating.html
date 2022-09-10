@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YERBABUENA MENU</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Imgs/YERBABUENA_Logo.png">
+</head>
+
+<body>
+
+    <div class="Content">
+        <div class="ImgContenedorAnimated">
+            <img class="imagen" src="/Imgs/YLogoGrande-min.png" alt="LOGO">
+        </div>
+        <div id="ContentBar">
+            <div id="LoadingBar"></div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="FooterText">
+            <a href="https://www.facebook.com/Yerbabuena-Pub-Coffe-105044518788188"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/yerbabuena_coffe/"> <i class="bi bi-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=573123581616"><i class="bi bi-whatsapp"></i></a>
+            <p>© 2022 YERBABUENA,
+                <a href="https://www.instagram.com/ktceras/"> Developed by : J.C. <i class="bi bi-telephone-fill"></a></i>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+<script>
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const id = urlSearchParams.get("key");
+    console.log("El id es:", id);
+
+    if (id == 1) {
+        setTimeout(function () {
+            window.location.href = "/Food.html"
+        }, 2500);
+    }
+    else {
+        setTimeout(function () {
+            window.location.href = "/Drinks.html"
+        }, 2500);
+    }
+
+</script>
